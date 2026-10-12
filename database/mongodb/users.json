@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "ObjectId('65a1f9c3e8b9a1f001234567')",
+    "name": "Sampath T",
+    "email": "sampath@gmail.com",
+    "password_hash": "$2b$12$wE8J9F8v8Y7Y9nKZ2mU1Oe6sZb9Zc9Q2X0F6y5p1GJ1r3U9ZQe",
+    "role": "user",
+
+    "prakriti": {
+      "type": "Pitta",
+      "last_updated": "2026-02-09T10:30:00Z",
+      "confidence": 0.87
+    },
+
+    "saved_remedies": [
+      {
+        "remedy_id": "R001",
+        "name": "Triphala Churna",
+        "saved_at": "2026-02-08T18:45:00Z"
+      },
+      {
+        "remedy_id": "R002",
+        "name": "Sitopaladi Churna",
+        "saved_at": "2026-02-09T08:15:00Z"
+      }
+    ],
+
+    "dinacharya_planner": [
+      {
+        "task_id": "T001",
+        "task_name": "Wake up before sunrise",
+        "time": "05:30",
+        "completed": true,
+        "date": "2026-02-09"
+      },
+      {
+        "task_id": "T002",
+        "task_name": "Oil pulling (Gandusha)",
+        "time": "06:00",
+        "completed": false,
+        "date": "2026-02-09"
+      }
+    ],
+
+    "chat_history": [
+      {
+        "message_id": "C001",
+        "sender": "user",
+        "message": "I have fever and sore throat",
+        "timestamp": "2026-02-09T09:10:00Z"
+      },
+      {
+        "message_id": "C002",
+        "sender": "bot",
+        "message": "Based on your symptoms, Sitopaladi Churna may help.",
+        "timestamp": "2026-02-09T09:10:05Z"
+      }
+    ],
+
+    "created_at": "2026-02-01T12:00:00Z",
+    "updated_at": "2026-02-09T10:30:00Z"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "ObjectId('65a2d5e6e8b9a1f009999999')",
+    "chat_id": "C001",
+    "user_id": "ObjectId('65a1f9c3e8b9a1f001234567')",
+
+    "session_id": "S20260209_001",
+
+    "messages": [
+      {
+        "message_id": "M001",
+        "sender": "user",
+        "message": "I have fever and sore throat",
+        "intent": "symptom_input",
+        "timestamp": "2026-02-09T09:10:00Z"
+      },
+      {
+        "message_id": "M002",
+        "sender": "bot",
+        "message": "Based on your symptoms, Sitopaladi Churna may be helpful.",
+        "intent": "remedy_suggestion",
+        "predicted_remedy": "Sitopaladi Churna",
+        "confidence": 0.89,
+        "timestamp": "2026-02-09T09:10:05Z"
+      },
+      {
+        "message_id": "M003",
+        "sender": "bot",
+        "message": "Would you like to save this remedy or know the precautions?",
+        "intent": "follow_up",
+        "timestamp": "2026-02-09T09:10:10Z"
+      }
+    ],
+
+    "created_at": "2026-02-09T09:10:00Z",
+    "updated_at": "2026-02-09T09:10:10Z"
+  }
+]
